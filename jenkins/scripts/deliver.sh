@@ -15,5 +15,9 @@ echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
 set -x
 echo | pwd
 echo | dir
-java -jar ./target/hello-jenkins-0.0.1-SNAPSHOT.jar
+cd ./target
+echo | dir
+echo | pwd
+
+java -jar hello-jenkins-0.0.1-SNAPSHOT.jar
 
