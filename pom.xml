@@ -50,8 +50,7 @@
                         <manifest>
                             <!-- 主函数的入口 -->
                             <mainClass>com.hzm.hellojekins.HelloJekinsApplication</mainClass>
-                            <!-- 打包时 MANIFEST.MF文件不记录的时间戳版本 -->
-                            <addClasspath>true</addClasspath>
+                            <addClasspath>false</addClasspath>
                         </manifest>
                     </archive>
                 </configuration>
