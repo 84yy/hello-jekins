@@ -11,6 +11,7 @@ public class HelloJekinsApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.println("这个是一个单元测试======================");
 	}
 
 }
