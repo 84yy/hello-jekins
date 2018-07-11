@@ -1,3 +1,5 @@
+//Jenkinsfile (Declarative Pipeline 另外还有Script语法的Pipeline)
+
 pipeline {
     agent any
     stages {
