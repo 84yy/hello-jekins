@@ -8,8 +8,12 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing'
-
+                sh 'mvn test'
+            }
+            post {
+                always {
+                    junit 'target/**.class'
+                }
             }
         }
         stage('Deploy') {
