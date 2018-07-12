@@ -16,7 +16,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello(){
-        return "Hello Jekins";
+        return "Hello Jekins 这是第一个持续部署成功的程序！";
     }
 
 }
